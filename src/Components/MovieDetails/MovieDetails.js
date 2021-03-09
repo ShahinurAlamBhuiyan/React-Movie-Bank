@@ -16,7 +16,7 @@ const MovieDetails = () => {
     
     return (
         <div className="container">
-            <div className="row p-5">
+            <div className="row pt-4 mt-5">
                 <div className="col-md-6">
                     <img className='img-fluid' src={`https://image.tmdb.org/t/p/w1280/${details.poster_path}`} alt=""/>
                 </div>
