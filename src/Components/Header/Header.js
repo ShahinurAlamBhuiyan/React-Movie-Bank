@@ -4,7 +4,7 @@ import { Navbar, Nav, Form, FormControl, Button,  Container } from 'react-bootst
 
 const Header = () => {
     return (
-        <Navbar bg="info" expand="lg">
+        <Navbar fixed="top" bg="info" expand="lg">
             <Container>
             <Navbar.Brand  as={Link} to="/">React-Movie-Bank</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
