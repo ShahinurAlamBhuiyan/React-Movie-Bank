@@ -13,7 +13,6 @@ const MovieDetails = () => {
             .then(res => res.json())
             .then(data => setDetails(data))
     }, [id])
-    console.log(details)
     
     return (
         <div className="container">
